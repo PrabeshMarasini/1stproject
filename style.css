@@ -1,0 +1,315 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+img{
+    width: 14%;
+    margin-left: 1.9rem;
+    margin-top: 1%;
+}
+
+nav ul li:hover{
+    background-color: rgb(246, 99, 8);
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.section h1{
+    top:0%;
+    color: rgb(155, 14, 127);
+    line-height: 50px;
+}
+
+.section p{
+    color: gray;
+}
+
+.pp{
+    text-align:center;
+}
+
+.btn{
+   
+    padding: 0.7rem 2.7rem;
+    opacity: 0.7;
+    font-size: 1rem;
+    margin-right: 80px;
+    background-color: navy;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: red;
+    color: #F8F9F3;
+    cursor: pointer;
+}
+
+.features{
+    
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.features h3{
+   
+    color: rgb(23, 23, 22);
+    text-align: center;
+    font-size: 200%;
+    font-style:oblique;
+    text-decoration-line: underline;
+    
+}
+
+.h{
+    text-align: center;
+    text-shadow: 5px black;
+    text-decoration-line: underline;
+}
+.hh{
+    color: red;
+    text-align: center;
+    background: gainsboro;
+    text-decoration-line: underline;
+}
+
+#offers{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 10px;
+ 
+}
+
+#offers img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: auto;
+}
+#offers img:hover{
+cursor: pointer;
+
+}
+
+#offers button:hover{
+    background: transparent;
+    cursor: pointer;
+}
+
+.bus{
+    height: 112px;
+
+}
+
+
+
+
+
+.photo img{
+    margin-left: 20px;
+    padding-left: 115px;
+  height:80%;
+  width: 80%;
+ 
+  
+}
+
+.aaa{
+    font-weight: bolder;
+    color: black;
+    background-color: orangered;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+}
+
+
+/* contact */
+.descrip{
+    padding:5px;
+    margin:5px;
+   text-align: center;
+   align-items: center;
+   max-width: 700px;
+   width:100%;
+   padding:25px,30px; 
+   display: flex;
+   flex-wrap:wrap;
+
+}
+
+
+
+
+
+
+
+/* fee*/
+table{
+    border: 5px ,solid black;
+    margin:4px;
+    background-color: bisque;
+}
+
+.fee li{
+    border:5px, #000;
+}
+
+
+
+/*about*/
+.about{
+    padding:0;
+    margin: 0;
+    justify-content: center;
+    color: #000;
+    
+   
+}
+.about .one{
+    margin: 5px;
+    text-align: justify;
+
+}
+.about .one .o{
+
+display: block;
+justify-content: space-between;
+align-items: flex-start;
+    flex-wrap: wrap;
+}
+.about .two{
+    margin: 5px;
+    text-align: justify;
+  
+}
+.about .two .t{
+   
+display: block;
+flex: content;
+align-items: flex-start;
+    flex-wrap: wrap;
+}
+ span{
+    color: red;
+    text-shadow: #000;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+
+
+/* contact */
+ #respond{
+
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+} 
+input[type="text"],input[type="number"]
+{
+width: 90%;
+margin: 10px;
+padding:10px;
+margin-top: 10px;
+
+}
+#respond .map .con p{
+font-size: small;
+
+
+
+}
+#respond .comnt{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+padding: 0;
+margin-top: 20px;
+    background-color: burlywood;
+    
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+#respond .map{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    flex: 4;
+   margin-top: 20px;
+    padding: 10px;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+
+
+button[type="submit"]{
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+#respond .comnt button:hover{
+    background: red;
+    cursor:grabbing;
+    color: #fff;
+}
+
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+
+.row5{
+    padding:50px 0 30px 0;
+     border-top:1px solid #F8F9F3;
+     background-color:#03274B;
+    }
+
+
+#try{
+    background-color:#03274B;
+
+}

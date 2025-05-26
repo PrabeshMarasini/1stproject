@@ -1,0 +1,112 @@
+/* ----------------------------------------------Footer------------------------------------- */
+
+footer {
+    margin:0;
+    line-height:2em;
+    background-color:#03274B;
+    padding-bottom: -4%;
+}
+footer a:hover{
+    color: red;
+}
+footer a
+{color:#f2f4f8; 
+    background-color:#03274B;
+}
+#footer h2, #footer p, #footer ul, #footer a, #footer address{
+    margin:0;
+     padding:0; 
+     font-weight:normal;
+      list-style:none; 
+      font-style:normal;
+      
+    }
+#footer h2
+{margin:0 0 30px 0;
+     padding:0; 
+     font-size:22px; 
+     color:#ccdce6; 
+     background-color:#03274B;
+    }
+#footer .foot_contact {
+    display:block;
+    color: aliceblue;
+     float:left; 
+      
+     margin:0 140px 0 0; 
+     padding:0 10px;
+     background-color:#03274B;}
+#footer .foot_contact address{
+    margin-bottom:20px;
+} 
+ #footer .footbox{
+    display:block; 
+    float:left; 
+    width:350px; 
+    margin:0 140px 0 0; 
+    padding:0; 
+    font-size:12px;
+    background-color:#03274B;}
+
+    #footer .footbox_last{
+        display:block; 
+        float:left; 
+        
+        margin: 0 140px  0 200px; 
+        padding:0; 
+        font-size:12px;
+        background-color:#03274B;}
+ #footer .footbox h2{
+    margin-bottom:20px; 
+    font-size:14px; 
+    text-transform:uppercase;}
+
+
+/* ----------------------------------------------Copyright------------------------------------- */
+
+#copyright{
+    margin-top: 0;
+    padding:15px 0;
+     border-top:5px solid #2B4D71;
+     
+    }
+#copyright p{
+     
+    text-align: center;
+    }
+#copyright, #copyright a{
+    color:#7F99A9; 
+    background-color:#03274B;} 
+
+    /*------------------------------------------------------Menu------------------------*/
+ .sub-menu{
+        display: none;
+        margin: 0px;
+        padding: auto;
+    }
+    .wrapper ul li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background-color: #2B4D71;
+        margin-top: 0px;
+       
+    } 
+   
+    .wrapper ul li:hover .sub-menu ul{
+        display: block;
+        margin: 10px;
+        width: 180px;
+        padding: 0;
+        margin-left: 0;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    .sub-menu ul li{
+        font-size: small;
+        font-weight: lighter;
+    }
+    .wrapper ul li:hover .sub-menu ul a:hover{
+        color: #fff;
+    }

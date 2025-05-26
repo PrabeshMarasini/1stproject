@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/img.css">
+    <link rel="stylesheet" href="/footer.css">
+    <title>GALLERY-</title>
+</head>
+<body>
+    <nav>
+        <img class="imgclass" src="/assets/school.png" class="img" alt="logo"> 
+        <ul>
+          <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="./feestructure.html">FEE STRUCTURE</a></li>
+            <li><a href="http://127.0.0.1:5500/pages/gallery.html">GALLERY</a></li>
+            <li><a href="http://127.0.0.1:5500/nothing-main/notice.html">NOTICE</a></li>
+            <li><a href="http://127.0.0.1:5500/pages/contact.html">CONTACT</a></li>
+            <li><a href="#" >LogIn</a>
+                <div class="sub-menu">
+                  <ul>
+                    <li><a href="http://localhost/project/teach.php">As Teacher</a></li>
+                    <li><a href="http://localhost/project/login.php">As Student</a></li>
+                  </ul>
+                </div>
+                </li> 
+               
+        
+              
+        </ul>
+     </nav>
+<div class="container">
+    <h2>Recent photos</h2>
+<div class="img-container">
+    
+    <div class="image"><img src="/Schoolgallery/photo1.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo2.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo3.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo4.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo5.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo6.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo7.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo8.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo9.jpg" alt=""></div>
+    <div class="image"><img src="/Schoolgallery/photo10.jpg" alt=""></div>
+</div>
+
+<div class="popup-image">
+    <span>&times;</span>
+    <img src="/Schoolgallery/photo1.jpg" alt="">
+    
+</div>
+<script>
+    document.querySelectorAll('.img-container img').forEach(image =>{
+        image.onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'block';
+        document.querySelector('.popup-image img').src = image.getAttribute('src');
+    } 
+});
+document.querySelector('.popup-image span').onclick = () =>{
+    document.querySelector('.popup-image').style.display = 'none';
+}
+</script>
+</div>
+
+<footer >
+  <div style="display:flex;">
+  <div id="try">
+      <div id="footer" class="clear"> 
+        <div class="foot_contact">
+          <h2>Himchuli Secondary Boarding School</h2>
+          <address><strong>
+          Gandaki Province,Lamjung,Nepal<br />
+          Marsyandhi RM<br />
+          Khudi <br /></strong>
+          </address>
+          <ul>
+            <li><strong>Tel:</strong> xxxxx xxxxxxxxxx</li>
+            <li><strong>Fax:</strong> xxxxx xxxxxxxxxx</li>
+            <li class="last"><strong>Email:</strong> <a href="#">hsbs2052@edu.np</a></li>
+          </ul>
+        <div class="footbox" style="margin-left:100%; margin-top:-274px;">
+          
+          <ul>
+            <h2>Administration</h2>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Freedom of Information</a></li>
+            <li><a href="#">Website Privacy</a></li>
+            <li><a href="#">Annual Report</a></li>
+            <li><a href="#">Job Vacancies</a></li>
+          </ul>
+        </div>
+      </div>
+        <div class="footbox_last" >
+          <ul>
+          <h2>Useful Links</h2>
+            <li><a href="#">Academic Advisory</a></li>
+            <li><a href="#">Academic Assistance</a></li>
+            <li><a href="#">Academic Calendars</a></li>
+            <li><a href="#">Administration</a></li>
+          
+          </ul>
+        </div>
+     
+    </div>
+  </footer>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2022 - All Rights Reserved - <a href="#">gandakiuni@edu.np</a></p>
+    
+</div>
+    
+</body>
+</html>
